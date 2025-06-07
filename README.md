@@ -1,4 +1,4 @@
-# Hostel-Management-System-
+# Hostel Management System
 
 A Windows Forms application developed in C# for efficiently managing hostel operations such as student registration, staff management, fine handling, and room availability.
 

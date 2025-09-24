@@ -1,0 +1,18 @@
+
+using System;
+using System.Windows.Forms;
+
+namespace HostelManagementSystem
+{
+    static class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            DataStore.Load();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new LoginForm());
+        }
+    }
+}
